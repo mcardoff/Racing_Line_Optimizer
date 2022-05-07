@@ -17,6 +17,20 @@
 		2CEC2FCF2825F66100552AB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC2FA52825F65F00552AB5 /* ContentView.swift */; };
 		2CEC2FD02825F66100552AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CEC2FA62825F66100552AB5 /* Assets.xcassets */; };
 		2CEC2FD12825F66100552AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CEC2FA62825F66100552AB5 /* Assets.xcassets */; };
+		2CEC2FE12825F69400552AB5 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC2FE02825F69400552AB5 /* DrawingView.swift */; };
+		2CEC2FE22825F69400552AB5 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC2FE02825F69400552AB5 /* DrawingView.swift */; };
+		2CEC2FE42825F6C200552AB5 /* GradientDescent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC2FE32825F6C200552AB5 /* GradientDescent.swift */; };
+		2CEC2FE52825F6C200552AB5 /* GradientDescent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC2FE32825F6C200552AB5 /* GradientDescent.swift */; };
+		2CEC2FE72825F6FB00552AB5 /* TrackObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC2FE62825F6FB00552AB5 /* TrackObject.swift */; };
+		2CEC2FE82825F6FB00552AB5 /* TrackObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC2FE62825F6FB00552AB5 /* TrackObject.swift */; };
+		2CEC2FEA2825F71500552AB5 /* RacingLineConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC2FE92825F71500552AB5 /* RacingLineConstraints.swift */; };
+		2CEC2FEB2825F71500552AB5 /* RacingLineConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC2FE92825F71500552AB5 /* RacingLineConstraints.swift */; };
+		2CEC2FED2825F73700552AB5 /* CostFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC2FEC2825F73600552AB5 /* CostFunction.swift */; };
+		2CEC2FEE2825F73700552AB5 /* CostFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC2FEC2825F73600552AB5 /* CostFunction.swift */; };
+		2CEC2FF02825F75800552AB5 /* TrackProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC2FEF2825F75800552AB5 /* TrackProblem.swift */; };
+		2CEC2FF12825F75800552AB5 /* TrackProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC2FEF2825F75800552AB5 /* TrackProblem.swift */; };
+		2CEC2FF32825F77100552AB5 /* EndCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC2FF22825F77100552AB5 /* EndCriteria.swift */; };
+		2CEC2FF42825F77100552AB5 /* EndCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC2FF22825F77100552AB5 /* EndCriteria.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +63,13 @@
 		2CEC2FC42825F66100552AB5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CEC2FC82825F66100552AB5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		2CEC2FCA2825F66100552AB5 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		2CEC2FE02825F69400552AB5 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		2CEC2FE32825F6C200552AB5 /* GradientDescent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientDescent.swift; sourceTree = "<group>"; };
+		2CEC2FE62825F6FB00552AB5 /* TrackObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackObject.swift; sourceTree = "<group>"; };
+		2CEC2FE92825F71500552AB5 /* RacingLineConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingLineConstraints.swift; sourceTree = "<group>"; };
+		2CEC2FEC2825F73600552AB5 /* CostFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostFunction.swift; sourceTree = "<group>"; };
+		2CEC2FEF2825F75800552AB5 /* TrackProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackProblem.swift; sourceTree = "<group>"; };
+		2CEC2FF22825F77100552AB5 /* EndCriteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndCriteria.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +120,13 @@
 			children = (
 				2CEC2FA42825F65F00552AB5 /* Racing_Line_Optimizer_AppApp.swift */,
 				2CEC2FA52825F65F00552AB5 /* ContentView.swift */,
+				2CEC2FE02825F69400552AB5 /* DrawingView.swift */,
+				2CEC2FE32825F6C200552AB5 /* GradientDescent.swift */,
+				2CEC2FE62825F6FB00552AB5 /* TrackObject.swift */,
+				2CEC2FE92825F71500552AB5 /* RacingLineConstraints.swift */,
+				2CEC2FEC2825F73600552AB5 /* CostFunction.swift */,
+				2CEC2FEF2825F75800552AB5 /* TrackProblem.swift */,
+				2CEC2FF22825F77100552AB5 /* EndCriteria.swift */,
 				2CEC2FA62825F66100552AB5 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,7 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CEC2FE72825F6FB00552AB5 /* TrackObject.swift in Sources */,
+				2CEC2FE42825F6C200552AB5 /* GradientDescent.swift in Sources */,
+				2CEC2FE12825F69400552AB5 /* DrawingView.swift in Sources */,
+				2CEC2FF02825F75800552AB5 /* TrackProblem.swift in Sources */,
+				2CEC2FF32825F77100552AB5 /* EndCriteria.swift in Sources */,
+				2CEC2FED2825F73700552AB5 /* CostFunction.swift in Sources */,
 				2CEC2FCE2825F66100552AB5 /* ContentView.swift in Sources */,
+				2CEC2FEA2825F71500552AB5 /* RacingLineConstraints.swift in Sources */,
 				2CEC2FCC2825F66100552AB5 /* Racing_Line_Optimizer_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +343,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CEC2FE82825F6FB00552AB5 /* TrackObject.swift in Sources */,
+				2CEC2FE52825F6C200552AB5 /* GradientDescent.swift in Sources */,
+				2CEC2FE22825F69400552AB5 /* DrawingView.swift in Sources */,
+				2CEC2FF12825F75800552AB5 /* TrackProblem.swift in Sources */,
+				2CEC2FF42825F77100552AB5 /* EndCriteria.swift in Sources */,
+				2CEC2FEE2825F73700552AB5 /* CostFunction.swift in Sources */,
 				2CEC2FCF2825F66100552AB5 /* ContentView.swift in Sources */,
+				2CEC2FEB2825F71500552AB5 /* RacingLineConstraints.swift in Sources */,
 				2CEC2FCD2825F66100552AB5 /* Racing_Line_Optimizer_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
